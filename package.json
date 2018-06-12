@@ -1,0 +1,33 @@
+{
+  "name": "pet_number_client",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "NONAME <noname@noname.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rimraf dist && parcel build index.html"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "element-ui": "^2.2.0",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.0.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-runtime": "^6.26.0",
+    "rimraf": "^2.6.2",
+    "stylus": "^0.54.5",
+    "vue-template-compiler": "^2.5.16"
+  }
+}

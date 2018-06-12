@@ -13,28 +13,7 @@ import store from './store';
 //   eth.setProvider(provider); // set to TestRPC if not available
 // }
 // store.commit('SET_WEB3_INSTANCE', eth);
-import 'element-ui/lib/theme-chalk/index.css';
-import {
-  Select,
-  Input,
-  Upload,
-  Col,
-  Row,
-  Button,
-  Table,
-  TableColumn,
-  InputNumber
-} from 'element-ui';
 
-Vue.use(Select);
-Vue.use(Input);
-Vue.use(Upload);
-Vue.use(Col);
-Vue.use(Row);
-Vue.use(Button);
-Vue.use(Table);
-Vue.use(TableColumn);
-Vue.use(InputNumber);
 new Vue({
   el: '#app',
   store,

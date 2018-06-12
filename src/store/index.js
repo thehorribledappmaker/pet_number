@@ -5,22 +5,18 @@ const debug = process.env.NODE_ENV !== 'production';
 
 export default new Vuex.Store({
   state: {
-    data: 'SHIT HEAD',
+    data: 'POOP HEAD'
     // web3_instance: null,
     // contract_abi: contractABI,
     // contract_address: contractAddress
   },
   getters: {
-    greet({
-      data
-    }) {
+    greet({ data }) {
       return data;
     },
-    w3({
-      web3_instance
-    }) {
+    w3({ web3_instance }) {
       return web3_instance;
-    },
+    }
     // contractABI({
     //   contract_abi
     // }) {
